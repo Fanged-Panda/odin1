@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.one, .two, .three, .four{
+    width: 100%;
+    height: 25vh;
+}
+.one{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;;
+    flex-direction: column;
+    gap: 30px;
+}
+header{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    color: orange;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    opacity: 0.6;
+    color: white;
+    transition: 0.3s;
+}
+header ul li a:hover{
+    opacity: 1;
+}
+.one img{
+    width: 300px;
+    height: 130px;
+    object-fit: cover;
+}
+.one .oc{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 10%;
+    justify-content: space-around;
+}
+.one .oc p{
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+.one .oc div{
+    width: 40%;
+}
+.one button{
+    background-color: #3882F6;
+    height: 25px;
+    width: 70px;
+    border-radius:5px;
+    border: none;
+    margin: 10px 0;
+    color: white;
+}
+.two .items .item{
+    height: 90px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid #3882F6 3px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+.two h2{
+    font-weight: bold;
+}
+.two .container{
+    display: flex;
+}
+.two .container .items{
+    height: 100px;
+    width: 100px;
+    margin: 0 30px;
+}
+.items p{
+    font-size: 0.7em;
+    opacity: 0.8;
+}
+.quote p{
+    font-size: 2em;
+    font-style: italic;
+    color: #1F2937;
+    opacity: 0.6;
+}
+.three{
+    background-color: #E7E5EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    margin: 10px 10%;
+}
+.quote h3{
+    transform: translateX(80%);
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 80%;
+    height: 50%;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer button{
+    width: 80px;
+    height: 25px;
+    background: transparent;
+    border: solid white 2px;
+    color: white;
+    border-radius: 5px;
+}
+.footer div p{
+    opacity: 0.7;
+}
