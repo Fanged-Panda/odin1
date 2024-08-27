@@ -6,13 +6,14 @@
 }
 body{
     width: 100%;
-    height: 100vh;
-}
-.one, .two, .three, .four{
+.two, .three, .four{
     width: 100%;
     height: 25vh;
 }
+
 .one{
+    width: 100%;
+    height: 100vh;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;;
@@ -24,6 +25,15 @@ header{
     height: 5vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+header h2{
+    margin-top: 25px;
+    font-size: 3em;
+}
+.oc{
+    height: 80%;
+    display: flex;
     align-items: center;
 }
 span{
@@ -44,8 +54,8 @@ header ul li a:hover{
     opacity: 1;
 }
 .one img{
-    width: 300px;
-    height: 130px;
+    width: 700px;
+    height: 450px;
     object-fit: cover;
 }
 .one .oc{
